@@ -96,15 +96,16 @@ class BootStrap {
 
       // Punto 1.4.6
 
-      // HAY QUE MODIFICAR LA CONSULTA SQL, NO ESTÁ CORRECTA.
+      // NO FUNCIONA. HAY QUE REVEERLO
 
-      // def listaPracticas = Practica.findAll("from Practica as p where p.tipopractica=231265 and paciente=paciente1")
-      //
-      // println listaPracticas
+      // def codPractica = 231265
+      // def idPaciente = 1
+      // def listaPracticas = Practica.findAll("from Practica where tipo_practica_id=? and paciente_id=?",
+      //                                       [idPractica, idPaciente])
 
       /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-      
+
     }
     def destroy = {
     }
